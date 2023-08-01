@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  background:gainsboro;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+
+}
+
+.dropable {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.dragable {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
